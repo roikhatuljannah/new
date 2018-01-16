@@ -1,0 +1,88 @@
+body
+{
+font: 16px/28px arial, sans-serif;
+background-color: #F73E10;
+
+}
+
+.Container
+{
+    width: 1280px;
+    height: 3000px;
+    background-color:whitesmoke;
+    margin: auto;
+}
+.header
+{
+    padding: 20px;
+    padding-bottom: 10px;
+   
+}
+
+.header ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C8E9F3;
+}
+
+.header li {
+    float: left;
+}
+
+.header li a, .dropbtn {
+    display: inline-block;
+    color: #B913E2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header li a:hover, .dropdown:hover .dropbtn {
+    background-color: #FFFBFB;
+}
+
+.header li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px whitesmoke;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.TAS 
+{
+    width: 1280px;
+    height: 200px;
+    margin-top: -2800px;
+    margin-left: 300px;
+    padding-right: 80px;
+    display: inline-block;
+}
+.TAS table th
+{
+    margin: 70px;
+    padding-left: -100px;
+    padding-bottom: 50px;
+    margin-right: 50px;
+    padding-right: 25px;
+    text-align: center;
+}

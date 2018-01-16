@@ -1,0 +1,176 @@
+body
+{
+font: 16px/28px arial, sans-serif;
+background-color: rgba(250, 109, 203, 0.99);
+
+}
+
+.Container
+{
+    width: 1280px;
+    height: 3000px;
+    background-color:#FAFAFA;
+    margin: auto;
+    margin-bottom: 800px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+
+}
+.header
+{
+    padding: 30px;
+    padding-bottom: 20px;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C8E9F3;
+}
+
+.header li {
+    float: left;
+}
+
+.header li a, .dropbtn {
+    display: inline-block;
+    color: #B913E2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header li a:hover, .dropdown:hover .dropbtn {
+    background-color: #FFFBFB;
+}
+
+.header li.dropdown {
+    display: inline-block;
+}
+.search_box input {
+    background: #F0F0E9 ;
+    border: medium none;
+    color: #000;
+    font-family: 'roboto';
+    font-size: 12px;
+    font-weight: 300;
+    height: 35px;
+    outline: medium none;
+    padding-left: 10px;
+    width: 155px;
+    background-image: url(../images/home/searchicon.png);
+    background-repeat: no-repeat;
+    background-position: 130px;
+    margin-left: 500px;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px whitesmoke;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.Logo img
+{
+    height: 100px;
+    width: 200px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+.Hero
+{
+    margin:auto;
+    width: 1280px;
+    height: 500px;
+    margin-top: -3650px;
+    background-image: url(1500602508.jpg);
+    background-size: cover;
+    background-position: 0 -20px;
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid lightskyblue;
+    
+}
+
+.Konten
+{
+   height:320px;
+   width: 1280px;
+   margin: auto;
+   background-color: #E0E0E0;
+}
+.Konten img
+{
+    padding-left: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.Konten p
+{
+    text-align: center;
+}
+.ABOUT
+{
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+.ABOUT p
+{
+text-align: justify;
+}
+.History
+{
+    width: 600px;
+    float: right;
+    padding: 20px;
+}
+.History p
+{
+    text-align: justify;
+}
+.footer {
+  background: #C0C2C0;
+  width: 1281px;
+  height: 200px;
+  margin: auto;
+  margin-top: 1650px;
+  margin-left: 105px;
+  margin-right: 200px;
+  margin-bottom: 150px;
+ padding-right:-10px;
+ padding-left: -50px;
+  padding-top: 30px;
+  padding-bottom: 90px;
+position: absolute;
+}
+.footer th
+{
+   width: 500px;
+   text-align: justify;
+}
+.footer h2
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 40px;
+    text-align:justify; 
+}
